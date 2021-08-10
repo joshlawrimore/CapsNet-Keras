@@ -17,6 +17,7 @@ Author: Xifeng Guo, E-mail: `guoxifeng1990@163.com`, Github: `https://github.com
 """
 
 import numpy as np
+from tensorflow import keras
 from keras import layers, models, optimizers
 from keras import backend as K
 from keras.utils import to_categorical
